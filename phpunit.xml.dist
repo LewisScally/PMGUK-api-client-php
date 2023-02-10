@@ -14,8 +14,8 @@
     verbose="true"
 >
     <testsuites>
-        <testsuite name="exads-api-client-php Test Suite">
-            <directory>./test/Exads/Tests</directory>
+        <testsuite name="PMGUK-api-client-php Test Suite">
+            <directory>./test/PMGUK/Tests</directory>
         </testsuite>
     </testsuites>
 
@@ -27,7 +27,7 @@
 
     <filter>
         <whitelist>
-            <directory suffix=".php">./lib/Exads/</directory>
+            <directory suffix=".php">./lib/PMGUK/</directory>
         </whitelist>
     </filter>
 
